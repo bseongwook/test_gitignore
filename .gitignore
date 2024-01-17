@@ -11,6 +11,5 @@ test/
 # 와일드카드 사용해서 모든 log 파일 무시할 것
 - .log
 
-# 모든 log파일 무시했으나 이건 무시하지 않음
-!important.log
-test/test1.log
+# 모든 log파일 무시했으나 이건 무시하지 않음 !important.log
+!test/test1.log
