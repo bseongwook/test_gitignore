@@ -6,3 +6,11 @@ secret.log
 test/
 
 # 원격 저장소 사이의 stash가 관찰하고 있는데, 이럴 경우 캐시 삭제 해야됨
+
+
+# 와일드카드 사용해서 모든 log 파일 무시할 것
+- .log
+
+# 모든 log파일 무시했으나 이건 무시하지 않음
+!important.log
+test/test1.log
