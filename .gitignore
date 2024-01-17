@@ -1,5 +1,5 @@
 # 단일 파일 지정
 secret.log
 
-# 폴더 단위 지정
+# 폴더 단위 지정 - git ignore가 바로 반영 안 될 수도 있음
 test/
